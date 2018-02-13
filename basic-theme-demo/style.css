@@ -1,0 +1,108 @@
+/*
+Theme Name: Event Demo
+Theme URI: https://wordpress.org/themes/eventdemo/
+Author: PLUS
+Author URI: https://eventdemo.org/
+Description: Event Demo.
+Version: 1.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: eventdemo
+Tags: one-column
+*/
+
+/* ======== Global Setting ======== */
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+html {
+  height: 100%;
+}
+
+body {
+  background: no-repeat center/cover url("https://c2.staticflickr.com/8/7324/9473017392_2874a3a1d5_b.jpg");
+  height: 100%;
+  color: #333;
+  font-size: 14px;
+  line-height: 1.2;
+}
+body p {
+  color: #666;
+}
+
+/* ======== Common Style ======== */
+.shadow-light {
+  box-shadow: 0 0 20px 2px #999;
+}
+
+.shadow-dark {
+  box-shadow: 0 0 5px #aaa;
+}
+
+.full-height {
+  height: 100%;
+}
+
+.full-width {
+  width: 100%;
+}
+
+.round {
+  border-radius: 5px;
+}
+
+.vertical-center {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.text-ellipsis {
+  display: -webkit-box;
+  text-overflow: ellipsis;
+  -webkit-line-clamp: 6;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+/* ======== Layout ======== */
+.wrapper {
+  text-align: center;
+}
+.wrapper::after {
+  content: "";
+  display: inline-block;
+  height: 100%;
+  vertical-align: middle;
+}
+
+main {
+  margin: 0 auto;
+  padding: 2em;
+  background: #fefefe;
+  width: 80%;
+  max-width: 500px;
+}
+
+h1 {
+  font-size: 2em;
+  font-weight: bold;
+}
+
+.description {
+  margin: 1em 0;
+  background: #dedede;
+  padding: 1em;
+  line-height: 1.2;
+}
+
+.btn {
+  padding: 0.5em;
+  width: 100%;
+  font-size: 1.2em;
+  line-height: 1.2;
+  cursor: pointer;
+}
+.btn:hover {
+  background: #c6743f;
+}
