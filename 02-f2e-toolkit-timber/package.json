@@ -1,0 +1,21 @@
+{
+  "name": "05-f2e-toolkit-timber",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "104-f2e-es6-pack-toolkit": "git+ssh://git@github.com/104corp/104-f2e-es6-pack-toolkit.git",
+    "twig": "^1.10.5"
+  },
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "webpack-dashboard": "^1.1.1"
+  },
+  "scripts": {
+    "dev": "espack dev -v . -s static -e src/templates -p 3000",
+    "build": "espack build -v demos -s static -e src/templates"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
